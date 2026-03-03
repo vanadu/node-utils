@@ -1,13 +1,14 @@
 {
-  "name": "utils",
+  "name": "node-utils",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build-og-grid": "node scripts/image/build-og-grid.js",
+    "folders": "node scripts/files/folder-structure-indents.js",
+    "mov-to-mp4": "node scripts/video/mov-to-mp4.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs"
+  "dependencies": {
+    "sharp": "^0.33.0"
+  }
 }

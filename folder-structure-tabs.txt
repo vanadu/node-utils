@@ -1,0 +1,11 @@
+assets
+	og-grid-assets
+	video-assets
+output
+	file-output
+	og-grid-output
+	video-output
+scripts
+	files
+	image
+	video
